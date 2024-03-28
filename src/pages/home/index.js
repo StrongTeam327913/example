@@ -15,7 +15,7 @@ import {Colors} from "../../assets/colors/Coloes";
 
 const Stack = createNativeStackNavigator();
 // const navigateRedux=connect()(NavigationContainer)
-function Home_index() {
+function Index() {
 
     const [key_position,setKey_position]=useState(0);
     const [height_view,setHeight_view]=useState(500);
@@ -45,4 +45,4 @@ function Home_index() {
     );
 }
 
-export {Home_index};
+export {Index};

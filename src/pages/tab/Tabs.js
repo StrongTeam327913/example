@@ -3,18 +3,14 @@ import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/FontAwesome";
 import Ionicons from "react-native-vector-icons/Ionicons";
-
-
 import {useEffect, useMemo, useState} from "react";
 import {Colors} from "../../assets/colors/Coloes";
-
-import {Home_index} from "../Pages_home/Home_index";
+import Home_index from "../Pages_home/index";
 import {Advertising_index} from "../pages_advertising/Advertising_index";
 import {StyleSheet, Text, TouchableOpacity, View} from "react-native";
 import {Styles} from "../../assets/styles/Styles";
 import {Profile_index} from "../pages_profile/Profile_index";
 import {useSafeAreaInsets} from "react-native-safe-area-context";
-import {useNavigation} from "@react-navigation/native";
 import normalize from "react-native-normalize";
 
 
